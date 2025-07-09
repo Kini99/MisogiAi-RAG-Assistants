@@ -1,0 +1,83 @@
+{
+  "batch_name": "single_20250710_005942",
+  "timestamp": "2025-07-10T01:00:00.587772",
+  "evaluation_time": 18.537651300430298,
+  "num_queries": 1,
+  "metrics": {
+    "context_precision": 0.0,
+    "context_recall": 0.0,
+    "faithfulness": 0.9444444444444444,
+    "answer_relevancy": 0.0,
+    "context_utilization": 0.0,
+    "safety_score": 0.7,
+    "completeness": 0.9230769230769231,
+    "source_utilization": 0.42391304347826086
+  },
+  "quality_check": {
+    "thresholds_met": {
+      "faithfulness": {
+        "score": 0.9444444444444444,
+        "threshold": 0.9,
+        "pass": true
+      },
+      "context_precision": {
+        "score": 0.0,
+        "threshold": 0.85,
+        "pass": false
+      },
+      "context_utilization": {
+        "score": 0.0,
+        "threshold": 0.85,
+        "pass": false
+      },
+      "context_recall": {
+        "score": 0.0,
+        "threshold": 0.8,
+        "pass": false
+      },
+      "answer_relevancy": {
+        "score": 0.0,
+        "threshold": 0.85,
+        "pass": false
+      }
+    },
+    "overall_pass": false,
+    "failed_metrics": [
+      "context_precision",
+      "context_utilization",
+      "context_recall",
+      "answer_relevancy"
+    ],
+    "warnings": [
+      "Warning: context_precision below threshold (0.000 < 0.85)",
+      "Warning: context_utilization below threshold (0.000 < 0.85)",
+      "Warning: context_recall below threshold (0.000 < 0.8)",
+      "Warning: answer_relevancy below threshold (0.000 < 0.85)"
+    ]
+  },
+  "thresholds": {
+    "faithfulness": 0.9,
+    "context_precision": 0.85,
+    "context_utilization": 0.85,
+    "context_recall": 0.8,
+    "answer_relevancy": 0.85
+  },
+  "details": {
+    "questions": [
+      "What is the recommended HbA1c target for type 2 diabetes patients under 65?"
+    ],
+    "contexts": [
+      [
+        "rent position of the ADA. The Standards\nof Care receives annual review and ap-\nproval by the ADA Board of Directors and\nis reviewed by ADA staff and clinical lead-\nership. The Standards of Care also under-\ngoes external peer review annually.\nSCOPE OF THE GUIDELINES\nThe recommendations in the Standards\nof Care include screening, diagnostic,\nand therapeutic actions that are known\nor believed to favorably affect health\noutcomes of people with diabetes. They\nalso cover the prevention, screening, di-\nagnosis, and management of diabetes-\nassociated complications and comorbid-\nities. The recommendations encompass\ncare throughout the lifespan, for youth\n(children aged birth to 11 years and ado-\nlescents aged 12\u201317 years), adults (aged\n18\u201364 years), and older adults (aged\n$65 years). The recommendations cover\nthe management of type 1 diabetes, type 2\ndiabetes, gestational diabetes mellitus,\nand other types of diabetes.\nThe Standards of Care does not pro-\nvide comprehensive treatment plans for",
+        "cacy groups to align their policies and\nresources and deliver optimal care for\npeople living with diabetes.\nThe ADA strives to improve and up-\ndate the Standards of Care to ensure\nthat clinicians, health plans, and policy\nmakers can continue to rely on it as\nthe most authoritative source for cur-\nrent guidelines for diabetes care. The\nStandards of Care recommendations\nare not intended to preclude clinical\njudgment. They must be applied in the\ncontext of excellent clinical care, with\nadjustments for individual preferences,\ncomorbidities, and other patient factors.\nFor more detailed information about the\nmanagement of diabetes, please refer to\nMedical Management of Type 1 Diabetes\n(1) and Medical Management of Type 2\nDiabetes (2).\nMETHODOLOGY AND PROCEDURE\nThe Standards of Care includes discussion\nof evidence and clinical practice recom-\nmendations intended to optimize care for\npeople with diabetes by assisting pro-\nviders and individuals in making shared",
+        "Kenneth Cusi, MD, FACP, FACE\nChristopher H. Gibbons, MD, MMSc\nJohn M. Giurini, DPM\nLisa Murdock\nJennifer K. Sun, MD, MPH\nCrystal C. Woodward\nDeborah Young-Hyman, PhD, FTOS, Fel SBM,\nCDCES\nADA Staff\nRaveendhara\nR.\nBannuru,\nMD,\nPhD,\nFAGE\n(corresponding author, rbannuru@diabetes.org)\nNuha Ali ElSayed, MD, MMSc\nRobert A. Gabbay, MD, PhD\nMalaika I. Hill, MA\nLaura S. Mitchell\nReferences\n1. American Diabetes Association. Medical\nManagement of Type 1 Diabetes. 7th ed.Wang CC,\nShah AC, Eds. Alexandria, VA, American Diabetes\nAssociation, 2017\n2. American Diabetes Association. Medical\nManagement of Type 2 Diabetes. 8th ed.\nMeneghini L, Ed. Alexandria, VA, American\nDiabetes Association, 2020\n3. Council of Medical Specialty Societies. CMSS\nCode for Interactions with Companies. Accessed\n13 October 2022. Available from https://cmss.org/\ncode-for-interactions-with-companies/\n4. Council for Medical Specialty Societies. CMSS\nPrinciples for the Development of Specialty",
+        "\u0001 Evidence from observational studies with high potential for bias (such as\ncase series with comparison with historical controls)\n\u0001 Evidence from case series or case reports\nCon\ufb02icting evidence with the weight of evidence supporting the recommendation\nE\nExpert consensus or clinical experience\ndiabetesjournals.org/care\nIntroduction and Methodology\nS3\nDownloaded from http://diabetesjournals.org/care/article-pdf/46/Supplement_1/S1/693607/dc23sint.pdf by guest on 09 July 2025\nADA adheres to the Council for Medical\nSpecialty Societies \u201cRevised CMSS Prin-\nciples for Clinical Practice Guideline\nDevelopment\u201d (4).\nADA STANDARDS, STATEMENTS,\nREPORTS, AND REVIEWS\nThe ADA has been actively involved in\ndeveloping and disseminating diabetes\ncare clinical practice recommendations\nand related documents for more than\n30 years. The ADA Standards of Care is\nan essential resource for health care pro-\nfessionals caring for people with diabe-\ntes. ADA Statements, Consensus Reports,",
+        "potential dualities of interest are listed in\nthe section \u201cDisclosures: Standards of\nMedical Care in Diabetes\u20142023.\u201d The\nADA funds the development of the Stand-\nards of Care from general revenue and\ndoes not use industry support for this\npurpose.\nEvidence Review\nThe Standards of Care subcommittee for\neach section creates an initial list of\nS2\nIntroduction and Methodology\nDiabetes Care Volume 46, Supplement 1, January 2023\nDownloaded from http://diabetesjournals.org/care/article-pdf/46/Supplement_1/S1/693607/dc23sint.pdf by guest on 09 July 2025\nrelevant clinical questions that is reviewed\nand discussed by the expert panel. In con-\nsultation with a systematic review expert,\neach subcommittee devises and executes\nsystematic literature searches. For the\n2023 Standards of Care, PubMed, Med-\nline, and EMBASE were searched for the\ntime periods of 1 June 2021 to 26 July\n2022. Searches are limited to studies pub-\nlished in English. Subcommittee members\nalso manually search journals, reference"
+      ]
+    ],
+    "answers": [
+      "Based on the provided medical context, there is no specific information available regarding the recommended HbA1c target for type 2 diabetes patients under 65. The documents discuss the ADA's Standards of Care, which include screening, diagnostic, and therapeutic actions for people with diabetes, as well as the prevention, screening, diagnosis, and management of diabetes-associated complications and comorbidities. However, they do not provide specific HbA1c targets.\n\nIt's important to note that HbA1c targets can vary depending on individual patient factors, including age, duration of diabetes, risk of hypoglycemia, and presence of complications or comorbidities. Therefore, any HbA1c target should be individualized in consultation with a healthcare professional.\n\nRemember, this information is for educational purposes only. Always consult with healthcare professionals for medical advice and decisions."
+    ],
+    "ground_truths": null
+  }
+}

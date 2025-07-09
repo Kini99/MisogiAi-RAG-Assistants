@@ -1,0 +1,85 @@
+{
+  "batch_name": "single_20250710_010221",
+  "timestamp": "2025-07-10T01:02:36.449974",
+  "evaluation_time": 14.81036925315857,
+  "num_queries": 1,
+  "metrics": {
+    "context_precision": 0.0,
+    "context_recall": 0.0,
+    "faithfulness": 0.7692307692307693,
+    "answer_relevancy": 0.0,
+    "context_utilization": 0.0,
+    "safety_score": 0.7,
+    "completeness": 1.0,
+    "source_utilization": 0.4782608695652174
+  },
+  "quality_check": {
+    "thresholds_met": {
+      "faithfulness": {
+        "score": 0.7692307692307693,
+        "threshold": 0.9,
+        "pass": false
+      },
+      "context_precision": {
+        "score": 0.0,
+        "threshold": 0.85,
+        "pass": false
+      },
+      "context_utilization": {
+        "score": 0.0,
+        "threshold": 0.85,
+        "pass": false
+      },
+      "context_recall": {
+        "score": 0.0,
+        "threshold": 0.8,
+        "pass": false
+      },
+      "answer_relevancy": {
+        "score": 0.0,
+        "threshold": 0.85,
+        "pass": false
+      }
+    },
+    "overall_pass": false,
+    "failed_metrics": [
+      "faithfulness",
+      "context_precision",
+      "context_utilization",
+      "context_recall",
+      "answer_relevancy"
+    ],
+    "warnings": [
+      "Critical: Faithfulness below threshold (0.769 < 0.9)",
+      "Warning: context_precision below threshold (0.000 < 0.85)",
+      "Warning: context_utilization below threshold (0.000 < 0.85)",
+      "Warning: context_recall below threshold (0.000 < 0.8)",
+      "Warning: answer_relevancy below threshold (0.000 < 0.85)"
+    ]
+  },
+  "thresholds": {
+    "faithfulness": 0.9,
+    "context_precision": 0.85,
+    "context_utilization": 0.85,
+    "context_recall": 0.8,
+    "answer_relevancy": 0.85
+  },
+  "details": {
+    "questions": [
+      "Who are The target audience for the Standards of\nCare"
+    ],
+    "contexts": [
+      [
+        "annually in updating the Standards of Care\nand approve the recommendations therein.\nRevision Process\nPublic comment is particularly impor-\ntant in the development of clinical\npractice recommendations; it promotes\ntransparency and provides key stake\nholders the opportunity to identify and\naddress gaps in care. The ADA holds a\nyear-long public comment period re-\nquesting feedback on the Standards of\nCare. The PPC reviews compiled feedback\nfrom the public in preparation for the an-\nnual update but considers more pressing\nupdates throughout the year, which may\nbe published as \u201cliving\u201d Standards up-\ndates. Feedback from the larger clinical\ncommunity and general public was in-\nvaluable for the revision of the Standards\nof Care\u20142022. Readers who wish to\ncomment on the 2023 Standards of Care\nare invited to do so at professional.\ndiabetes.org/SOC.\nFeedback for the Standards of Care is\nalso obtained from external peer re-\nviewers. The Standards of Care is re-",
+        "time periods of 1 June 2021 to 26 July\n2022. Searches are limited to studies pub-\nlished in English. Subcommittee members\nalso manually search journals, reference\nlists of conference proceedings, and regu-\nlatory agency websites. All potentially rel-\nevant citations are then subjected to a\nfull-text review. In consultation with the\nmethodologist, the subcommittees pre-\npare the evidence summaries and grading\nfor each section of the Standards of Care.\nAll PPC members discuss and review the\nevidence summaries and make revisions\nas appropriate. The \ufb01nal evidence sum-\nmaries are then deliberated on by the\nPPC, and the recommendations that will\nappear in the Standards of Care are\ndrafted.\nGrading of Evidence and\nRecommendation Development\nA grading system (Table 1) developed\nby the ADA and modeled after existing\nmethods is used to clarify and codify\nthe evidence that forms the basis for\nthe recommendations in the Standards\nof Care. All of the recommendations in",
+        "are invited to do so at professional.\ndiabetes.org/SOC.\nFeedback for the Standards of Care is\nalso obtained from external peer re-\nviewers. The Standards of Care is re-\nviewed by ADA clinical leadership and\nscienti\ufb01c and medical staff and is ap-\nproved by the ADA Board of Directors,\nwhich includes health care professionals,\nscientists, and lay people. The ACC per-\nforms an independent external peer re-\nview and the ACC Board of Directors\nprovides endorsement of Section 10,\n\u201cCardiovascular and Metabolic Risk.\u201d The\nTable 1\u2014ADA evidence-grading system for Standards of Care in Diabetes\nLevel of\nevidence\nDescription\nA\nClear evidence from well-conducted, generalizable randomized controlled trials\nthat are adequately powered, including:\n\u0001 Evidence from a well-conducted multicenter trial\n\u0001 Evidence from a meta-analysis that incorporated quality ratings in the\nanalysis\nSupportive evidence from well-conducted randomized controlled trials that are\nadequately powered, including:",
+        "in the text, and as evidence evolves, clini-\ncal guidance is added to the recommen-\ndations in the Standards of Care. The\nStandards of Care is a \u201cliving\u201d document\nwhere important updates are published\nonline should the PPC determine that new\nevidence or regulatory changes (e.g., drug\nor technology approvals, label changes)\nmerit immediate inclusion. More informa-\ntion on the \u201cLiving Standards\u201d can be\nfound on the ADA professional website\nDiabetesPro at professional.diabetes.org/\ncontent-page/living-standards. The Stand-\nards of Care supersedes all previously\npublished ADA position statements\u2014and\nthe recommendations therein\u2014on clini-\ncal topics within the purview of the\nStandards of Care; while still containing\nvaluable analysis, ADA position state-\nments should not be considered the cur-\nrent position of the ADA. The Standards\nof Care receives annual review and ap-\nproval by the ADA Board of Directors and\nis reviewed by ADA staff and clinical lead-",
+        "disability, and, above all, the values and\npreferences of the person with diabetes,\nmust be considered and may lead to dif-\nferent treatment targets and strategies.\nFurthermore, conventional evidence hier-\narchies, such as the one adapted by the\nADA, may miss nuances important in dia-\nbetes care. For example, although there\nis excellent evidence from clinical trials\nsupporting the importance of achieving\nmultiple risk factor control, the optimal\nway to achieve this result is less clear. It\nis dif\ufb01cult to assess each component of\nsuch a complex intervention.\nIn preparation of the 2023 Standards\nof Care, the expert panel met for a 2-day\nin-person/virtual meeting in Arlington,\nVirginia, in July 2022, to present the evi-\ndence summaries and to develop the rec-\nommendations. All PPC members participate\nannually in updating the Standards of Care\nand approve the recommendations therein.\nRevision Process\nPublic comment is particularly impor-\ntant in the development of clinical"
+      ]
+    ],
+    "answers": [
+      "Based on the provided medical context, it does not specify who the target audience for the Standards of Care is. The Standards of Care appears to be a comprehensive document that is updated annually with input from the public, healthcare professionals, scientists, and other stakeholders. It includes evidence-based recommendations for care, which are graded based on the strength of the evidence. However, without additional context, it's not possible to definitively identify the target audience.\n\nThis information is for educational purposes only and should not be used as a substitute for professional medical advice. Always consult with a healthcare professional for medical decisions."
+    ],
+    "ground_truths": null
+  }
+}
