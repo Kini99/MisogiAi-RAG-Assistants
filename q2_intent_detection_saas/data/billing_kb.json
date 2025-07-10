@@ -1,0 +1,173 @@
+{
+  "pricing_plans": {
+    "free": {
+      "price": "$0/month",
+      "features": [
+        "100 API requests per hour",
+        "Basic support",
+        "Standard documentation",
+        "Community forum access"
+      ],
+      "limits": {
+        "api_calls": "100/hour",
+        "storage": "1GB",
+        "users": "1",
+        "support": "Community only"
+      }
+    },
+    "basic": {
+      "price": "$29/month",
+      "features": [
+        "1,000 API requests per hour",
+        "Email support",
+        "Priority documentation",
+        "Basic analytics",
+        "Webhook support"
+      ],
+      "limits": {
+        "api_calls": "1000/hour",
+        "storage": "10GB",
+        "users": "5",
+        "support": "Email (24h response)"
+      }
+    },
+    "pro": {
+      "price": "$99/month",
+      "features": [
+        "10,000 API requests per hour",
+        "Phone & email support",
+        "Advanced analytics",
+        "Custom webhooks",
+        "Team collaboration",
+        "API versioning"
+      ],
+      "limits": {
+        "api_calls": "10000/hour",
+        "storage": "100GB",
+        "users": "25",
+        "support": "Phone & Email (4h response)"
+      }
+    },
+    "enterprise": {
+      "price": "Custom pricing",
+      "features": [
+        "Unlimited API requests",
+        "Dedicated support manager",
+        "Custom integrations",
+        "SLA guarantees",
+        "On-premise deployment",
+        "Custom features"
+      ],
+      "limits": {
+        "api_calls": "Unlimited",
+        "storage": "Unlimited",
+        "users": "Unlimited",
+        "support": "Dedicated manager"
+      }
+    }
+  },
+  "billing_policies": {
+    "payment_methods": [
+      "Credit/Debit cards (Visa, MasterCard, American Express)",
+      "PayPal",
+      "Bank transfer (Enterprise only)",
+      "Invoice billing (Enterprise only)"
+    ],
+    "billing_cycles": {
+      "monthly": "Billed monthly on the same date",
+      "annual": "Billed annually with 20% discount",
+      "enterprise": "Custom billing schedule"
+    },
+    "refund_policy": {
+      "free_plan": "No refunds applicable",
+      "paid_plans": "30-day money-back guarantee",
+      "enterprise": "Custom refund terms in contract"
+    },
+    "cancellation": {
+      "process": "Cancel anytime from account settings",
+      "effective_date": "End of current billing period",
+      "data_retention": "30 days after cancellation",
+      "export": "Data export available before cancellation"
+    }
+  },
+  "account_management": {
+    "upgrade_process": {
+      "steps": [
+        "Select new plan in account settings",
+        "Choose billing cycle (monthly/annual)",
+        "Update payment method if needed",
+        "Confirm upgrade"
+      ],
+      "effective_date": "Immediate or next billing cycle",
+      "proration": "Prorated charges for mid-cycle upgrades"
+    },
+    "downgrade_process": {
+      "steps": [
+        "Select lower plan in account settings",
+        "Confirm downgrade",
+        "Review data usage limits"
+      ],
+      "effective_date": "End of current billing period",
+      "data_cleanup": "Excess data may be archived or deleted"
+    },
+    "team_management": {
+      "invite_members": "Email invitation from account settings",
+      "roles": ["Admin", "Developer", "Viewer"],
+      "permissions": {
+        "admin": "Full account access",
+        "developer": "API access and usage",
+        "viewer": "Read-only access"
+      }
+    }
+  },
+  "support_contacts": {
+    "billing_support": {
+      "email": "billing@example.com",
+      "phone": "+1-555-0123",
+      "hours": "Monday-Friday, 9AM-6PM EST",
+      "response_time": "4 hours"
+    },
+    "general_support": {
+      "email": "support@example.com",
+      "phone": "+1-555-0124",
+      "hours": "24/7",
+      "response_time": "2 hours"
+    },
+    "enterprise_support": {
+      "email": "enterprise@example.com",
+      "phone": "+1-555-0125",
+      "hours": "24/7",
+      "response_time": "1 hour"
+    }
+  },
+  "faq": {
+    "pricing": [
+      {
+        "question": "Can I change my plan anytime?",
+        "answer": "Yes, you can upgrade immediately or downgrade at the end of your billing period."
+      },
+      {
+        "question": "Is there a setup fee?",
+        "answer": "No setup fees for any plan. You only pay the monthly/annual subscription fee."
+      },
+      {
+        "question": "Do you offer volume discounts?",
+        "answer": "Yes, we offer volume discounts for Enterprise plans. Contact our sales team for details."
+      }
+    ],
+    "billing": [
+      {
+        "question": "When am I charged?",
+        "answer": "You're charged on the same date each month/year based on your billing cycle."
+      },
+      {
+        "question": "Can I get a refund?",
+        "answer": "We offer a 30-day money-back guarantee for all paid plans."
+      },
+      {
+        "question": "What happens if my payment fails?",
+        "answer": "We'll retry the payment and notify you. Service may be suspended after 3 failed attempts."
+      }
+    ]
+  }
+} 
